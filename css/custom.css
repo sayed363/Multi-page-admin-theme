@@ -1,0 +1,886 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:arial;
+	font-size:15px;
+	box-sizing:border-box;
+	margin-top:2px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:arial;
+}
+/* =================================== */
+/* HEADER WRAPPER STARTED */
+/* =================================== */
+#header_wrapper{
+	height:35px;
+	width:1100px;
+	margin:auto;
+	position:relative;
+}
+#contacts_call{
+	height:100%;
+	width:250px;
+	float:left;
+	line-height:35px;
+	font-family:'Titillium Web', sans-serif;
+	color:#000;
+}
+#contacts_mail{
+	height:100%;
+	width:250px;
+	float:left;
+	line-height:35px;
+	font-family:'Titillium Web', sans-serif;
+	color:#000;
+}
+/* social button area started ------------------------- */
+#header_social{
+	height:100%;
+	width:350px;
+	float:left;
+	position:relative;
+}
+
+#header_social ul{
+	list-style:none;
+	margin-left:105px;
+}
+#header_social ul li{
+	float:left;
+	font-size:17px;
+	height:40px;
+	width:40px;
+	line-height:40px;
+	margin:0px 0px;
+}
+
+#header_social ul li i{
+	text-align:center;
+	height:30px;
+	width:30px;
+	color:#184A73;
+	line-height:30px;
+	margin-left:2px;
+	padding:3px;
+	border-radius:50px;
+	transition:all 1s ease-in-out;
+}
+#header_social ul li i:hover{
+	background-color:#184A73;
+	color:orange;
+	transition:all 1s ease-in-out;
+	transform:rotate(360deg);
+}
+/* social button area ends ------------------------- */
+
+/* log-in area started ------------------------- */
+#header_login{
+	height:100%;
+	width:150px;
+	float:left;
+	position:relative;
+}
+.header_btn{
+	padding:5px 10px;
+	height:35px;
+	border:1px solid #F7284D;
+	background-color:#F7284D;
+	font-size:17px;
+	color:white;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#login{
+	background-color:#0c2e4a00;
+	position:absolute;
+	top:0px;
+	left:125px;
+	color:#000;
+	font-weight:bold;
+}
+#login:hover{
+	background-color:#666666;
+	transition:all 1s;
+	color:white;
+}
+#signup{
+	position:absolute;
+	top:0px;
+	left:186px;
+}
+#signup:hover{
+	border:1px solid #1A4A72;
+	background-color:#1A4A72;
+	transition:all 1s;
+	color:white;
+}
+/* log-in area ends ------------------------- */	
+/* ------------------------------------ */
+/* HEADER WRAPPER ENDS */
+/* ------------------------------------ */
+
+
+/* -------------------------------------------------- */
+/* NAVIGATION WRAPPER STARTED */
+/* -------------------------------------------------- */
+#nav_warpper{
+	margin-top:1px;
+	width:100%;
+	height:80px;
+	/* background-color:#779999; */
+	background-color:#95103BCC;
+}
+.nav{
+	width:1100px;
+	height:80px;
+	margin:auto;
+}
+
+#logo{
+    height:80px;
+    width:400px;
+	float:left;
+	font-family:'roboto condensed', sans-serif;
+	font-weight:bold;
+	line-height:80px;
+}
+#logo a{
+	display:block;
+	text-decoration:none;
+	color:white;
+	font-size:25px;
+	font-style:italic;
+}
+#menu{
+	height:80px;
+	width:700px;
+	float:left;
+	position:relative;
+}
+#menu ul{
+	list-style-type:none;
+	margin-left:160px;
+	position:absolute;
+	left:55px;
+}
+#menu ul li{
+	height:80px;
+	line-height:80px;
+	float: left;
+    padding: 0px 22px;
+}
+#menu ul li:last-child{
+	padding-right:0px;
+}
+#menu ul li a{
+	text-decoration:none;
+	font-family:'roboto condensed', sans-serif;
+	line-height:80px;
+	color:white;
+}
+#menu ul li a:hover{
+	color:red;
+}
+/* -------------------------------------------------- */
+/* NAVIGATION WRAPPER STARTED */
+/* -------------------------------------------------- */
+
+
+
+/* -------------------------------------------------- */
+/* MAIN WRAPPER STARTED */
+/* -------------------------------------------------- */
+#main_wrapper{
+	width:100%;
+	background-image: url('../images/background.jpg');
+	background-size:100% 100%;
+	height:100vh;
+}
+#main_content_1{
+	width:1300px;
+	height:530px;
+	margin:auto;
+}
+
+
+
+#mr_left{
+	height:400px;
+	width:798px;
+	float:left;
+	color:#fff;
+	text-align:center;
+}
+#mr_left h3{
+	margin-top:150px;
+	font-size:20px;
+	text-transform:uppercase;
+	font-family: 'Chakra Petch', sans-serif;
+}
+#mr_left h1{
+	font-size:50px;
+	padding:15px 0px;
+}
+#mr_left h4{
+	font-size:22px;
+	font-family: 'Bad Script', cursive;
+	font-weight:regular;
+}
+#mr_left #submitBtn{
+	display:inline-block;
+	background-color:#95103b99;
+	margin-top:10px;
+	padding:12px 35px;
+	text-decoration:none;
+	
+}
+#mr_left a{
+	font-size:17px;
+	text-decoration:none;
+	color:white;
+	font-family:'roboto condensed', sans-serif;
+}
+#mr_right{
+	height:400px;
+	width:500px;
+	float:left;
+	/* border:1px solid green; */
+	position:relative;
+}
+
+#wedo{
+	margin-top:150px;
+	padding-left:15px;
+	width: 498px;
+	height: 70px;
+	line-height:100px;
+	font-size:30px;
+	background-image:linear-gradient(to left, rgba(45,0,0,0), #2d0000);
+	/* box-shadow: 0 0 10px 10px; */
+	color:white;
+	/* border:1px solid red; */
+}
+#creativity{
+	height:auto;
+	width:auto;
+	margin-left:80px;
+}
+.strategy{
+	width:220px;
+	height:50px;
+	line-height:50px;
+	font-size:25px;
+	background-color:#51184975;
+	box-shadow: 3px 3px 5px 0px #eee;
+	padding-left:15px;
+	border-radius:5px;
+	font-family:'Chakra Petch', sans-serif;
+	font-weight:bold;
+	color:white;
+	position:absolute;
+	top:225px
+}
+.design{
+	width:220px;
+	height:50px;
+	line-height:50px;
+	font-size:25px;
+	background-color:#51184975;
+	box-shadow: 3px 3px 5px 0px #eee;
+	padding-left:15px;
+	border-radius:5px;
+	font-family:'Chakra Petch', sans-serif;
+	font-weight:bold;
+	color:white;
+	position:absolute;
+	top:285px
+}
+.development{
+	width:220px;
+	height:50px;
+	line-height:50px;
+	font-size:25px;
+	background-color:#51184975;
+	box-shadow: 3px 3px 5px 0px #eee;
+	padding-left:15px;
+	border-radius:5px;
+	font-family:'Chakra Petch', sans-serif;
+	font-weight:bold;
+	color:white;
+	position:absolute;
+	top:345px
+}
+#to_transform{
+	padding-left:13px;
+	height:50px;
+	line-height:50px;
+	width:400px;
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,0,0,1));
+	margin:180px 0px 0px 82px;
+	font-size:20px;
+	color:orange;
+	font-family:'Sedgwick Ave', cursive;
+}
+#get_a_touch{
+	height: 40px;
+	line-height: 50px;
+	width: 150px;
+	background-image:linear-gradient(to left, rgba(45,0,0,0), #0C2E4A);
+	/* background-color: #0C2E4A; */
+	position: absolute;
+	top:128px;
+	left:16px;
+	padding: 8px 10px;
+	font-family: 'Bad Script', cursive;
+	font-size: 25px;
+	color: orange;
+}
+#get_a_touch:before{
+	content: "";
+	border-right: 22px solid #313b44;
+	border-bottom: 16px solid #f000;
+	position: absolute;
+	top: 3px;
+	left: -19px;
+	transform: rotate(90deg);
+}
+
+
+
+/* SERVICE WRAPPER STARTED */
+#main_content_2{
+	width:100%;
+	height:170px;
+	margin:auto;
+	background-image:linear-gradient(to left, #751D52cc, #E54F52cc);
+	/* background-image:linear-gradient(to left, #751D52, #b5b5b500, #E54F52); */
+}
+#service{
+	height:150px;
+	width:1250px;
+	margin:auto;
+}
+.service_block{
+	box-sizing:border-box;
+	height:140px;
+	width:400px;
+	float:left;
+	margin:15px 0px;
+}
+#service_block_center{
+	margin:15px 20px;
+}
+.block_icon{
+	height:90px;
+	line-height:90px;
+	text-align:center;
+	color:white;
+	width:80px;
+	font-size:45px;
+	float:left;
+}
+.block_info{
+	box-sizing:border-box;
+	text-align:justify;
+	height:90px;
+	width:300px;
+	float:left;
+	padding:5px 50px 5px 0px;
+	font-family:'roboto condensed', sans-serif;
+	color:#f1e3e3;
+}
+.block_info h3{
+	font-family:'Chakra Petch', sans-serif;
+	font-size:20px;
+	
+}
+.block_btn{
+	height:60px;
+	width:100%;
+	clear:both;
+}
+.block_btn a{
+	background-color:white;
+	padding:8px 25px;
+	line-height:45px;
+	text-decoration:none;
+	font-family:'roboto condensed', sans-serif;
+	font-size:16px;
+	transition:all 2s;
+	margin-left:80px;
+	color:#0C2E4A;
+}
+
+.block_btn a:hover{
+	background-color:#007791;
+	color:#FF9700;
+	transition:all 2s;
+}
+/* SERVICE WRAPPER ENDS */
+
+/* -------------------------------------------------- */
+/* MAIN WRAPPER ENDS */
+/* -------------------------------------------------- */
+
+
+/* -------------------------------------------------- */
+/* ABOUT US STARTED */
+/* -------------------------------------------------- */
+#about_us{
+	width:100%;
+	height:auto;
+}
+#about_block{
+	height:auto;
+	width:1100px;
+	margin: 40px auto 30px;
+}
+
+#about_title{
+	margin-bottom: 60px;
+	text-align:center;
+	font-family:'Chakra Petch', sans-serif;
+	font-size:40px;
+	text-shadow:2px 2px 2px gray;
+	border-bottom:3px solid #ccb0b0;
+}
+#about_info_1 p{
+	text-align:justify;
+	font-family:'Abel', sans-serif;
+	font-size:18px;
+	font-style:bold;
+}
+
+#about_info_2{
+	height:auto;
+	width:1100px;
+	margin-top:20px;
+	clear:left;
+	position:relative;
+}
+#about_info_2_title{
+	height:100%;
+	width:20%;
+	float:left;
+	font-size:50px;
+	text-align:right;
+	padding-right:15px;
+}
+.passion{
+	color:red;
+}
+.firstcharacter{
+	color:red;
+	float: left;
+	font-size: 40px;
+	line-height: 35px;
+	padding-top: 5px;
+	padding-right: 4px;
+	padding-left: 0px;
+	font-family: arial;
+}
+#about_info_2_info{
+	text-align:justify;
+	height:100%;
+	width:78%;
+	float:left;
+	padding-left:5px;
+	font-family:'Abel', sans-serif;
+	font-size:18px;
+}
+/* #btn{ */
+	/* clear: both; */
+	/* height:auto; */
+	/* width:auto; */
+	/* margin:auto; */
+/* } */
+#btn{
+	text-transform:uppercase;
+	font-weight:normal;
+	text-align:center;
+	padding:7px 30px;
+	font-family:'roboto condensed', sans-serif;
+	display:block;
+	/* margin:20px auto; */
+	background-color:orange;
+}
+#btn a{
+	color:black;
+	text-decoration:none;
+	display:block;
+	font-size:15px;
+}
+	
+/* We are dedicated to build you dream starts here---------*/
+#about_info_3{
+	clear:both;
+	width:1100px;
+	height:315px;
+	padding-top:25px;
+}
+#about_info_3 p{
+	height:auto;
+	font-family:'Abel', sans-serif;
+	font-size:18px;
+	text-align:justify;
+}
+#about_info_3_title{
+	width:300px;
+	height:auto;
+	float:right;
+	font-size:50px;
+	text-align:left;
+	padding-left:20px;
+}
+/* We are dedicated to build you dream ends here---------*/
+
+/* -------------------------------------------------- */
+/* ABOUT US ENDS */
+/* -------------------------------------------------- */
+
+
+/* -------------------------------------------------- */
+/* CORPORATE PROFILE STARTED */
+/* -------------------------------------------------- */
+#corporate_profile{
+	height:auto;
+	width:1100px;
+	margin: 40px auto 30px;
+	clear:both;
+	font-family:'Abel', sans-serif;
+	font-size:18px;
+	text-align:justify;
+}
+#corporate_profile h2{
+	text-align:center;
+	font-family:'Chakra Petch', sans-serif;
+	font-size:40px;
+	border-bottom:3px solid #ccb0b0;
+	margin-bottom:60px;
+	text-shadow:2px 2px 2px gray;
+}
+#at_a_glance{
+	/* background-color:#e3dddd; */
+	text-transform:uppercase;
+	font-family: 'roboto condensed', sans-serif;
+	padding:10px;
+	font-size:17px;
+	letter-spacing: 3px;
+	font-weight:normal;
+	background-image: linear-gradient(to left, rgba(45,0,0,0), #e3dddd);
+}
+#company_overview{
+	margin-top:25px;
+}
+#company_overview h3{
+	padding:10px;
+}
+#overview{
+	color:orange;
+}
+#company_overview table{
+	border-collapse:collapse;
+	border:none;
+}
+#company_overview table > thead > tr{
+    border-top: 1px solid #ddd;
+}
+#company_overview table > thead > tr:last-child{
+    border-bottom: 1px solid #ddd;
+}
+#company_overview table > thead > tr > td{
+	padding: 8px;
+    line-height: 1.5;
+	border: 0px;
+	margin: 0px;
+}
+/* -------------------------------------------------- */
+/* CORPORATE PROFILE ENDS */
+/* -------------------------------------------------- */
+
+
+/* -------------------------------------------------- */
+/* TEAM STARTED */
+/*--------------------------------------------------- */
+#team{
+	height:1000px;
+	width:1100px;
+	margin: 40px auto 30px;
+}
+/* management_block started */
+#management_block{
+	width:780px;
+	height:315px;
+	border:1px solid red;
+	margin:50px auto 20px;
+	padding:0px 0px 0px;
+	
+}
+#chairman{
+	/* background: url(../images/man1.jpg), linear-gradient(to top,#AA3F6233, #AA3F62); */
+	/* background-size:100% 100%; */
+	/* height:100vh; */
+	/* background-repeat:no-repeat; */
+}
+.management{
+	/* height:300px; */
+	/* width: 200px; */
+	/* margin:0px 20px 0px; */
+	/* padding:0px 10px 10px; */
+	/* float:left; */
+	/* z-index:1; */
+	/* border:1px solid red; */
+}
+/* management_block ends */
+
+.member{
+	box-sizing:border-box;
+	padding:90px 10px 0px;
+	background-color:black;
+	background-image: linear-gradient(to top,#AA3F6233, #AA3F62);
+	margin: 150px 25px;
+	width: 225px;
+	height: 350px;
+	float: left;
+	font-size:16px;
+	position:relative;
+}
+.member h4{
+	text-align:center;
+	text-transform:uppercase;
+	color:white;
+	background-image: linear-gradient(to left,#8E345200, #521E2F, #8E345200);
+	padding:5px;
+	font-family: 'Exo 2', sans-serif;
+}
+.member h5{
+	text-align:center;
+	color:white;
+	padding-bottom:15px;
+}
+#member_img_1{
+	height:150px;
+	width:150px;
+	border-radius:100px;
+	display:inline-block;
+	position:absolute;
+	top:850px;
+	left:188px;
+	z-index:1;
+}
+#member_img_2{
+	height:150px;
+	width:150px;
+	border-radius:100px;
+	display:inline-block;
+	position:absolute;
+	top:850px;
+	left:462px;
+	z-index:1;
+}
+#member_img_3{
+	height:150px;
+	width:150px;
+	border-radius:100px;
+	display:inline-block;
+	position:absolute;
+	top:850px;
+	left:740px;
+	z-index:1;
+}
+#member_img_4{
+	height:150px;
+	width:150px;
+	border-radius:100px;
+	display:inline-block;
+	position:absolute;
+	top:850px;
+	left:1015px;
+	z-index:1;
+}
+
+
+/* social media started------------------ */
+.member ul{
+	list-style-type:none;
+	background:yellow;
+	margin:15px 6px 0px;
+}
+.member ul li{
+	text-align:center;
+	width:32px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	margin:7px;
+	border-radius:50px;
+	padding:1px;
+}
+.member ul li a{
+	border:1px solid orange;
+	color:orange;
+	display:block;
+	border-radius:50px;
+	transition:2s;
+}
+.member ul li a:hover{
+	color:black;
+	background-color:white;
+	border-radius:50px;
+	transition:1s;
+	color:#A93E61;
+	transform:rotate(360deg);
+}
+.member ul{}
+
+/* social media ends------------------ */
+
+#team h3{
+	margin-bottom:20px;
+	text-align: center;
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 40px;
+	text-shadow: 2px 2px 2px gray;
+	border-bottom: 3px solid #ccb0b0;
+}
+#team_info{
+	height:auto;
+	width:700px;
+	margin:auto;
+}
+#team_info p{
+	text-align:center;
+	font-family: 'Abel', sans-serif;
+	font-size:18px;
+}
+.member p{
+	text-align:center;
+	font-family: 'Abel', sans-serif;
+	font-size:16px;
+	color:#a7a7a7;
+}
+/* -------------------------------------------------- */
+/* TEAM ENDS */
+/*--------------------------------------------------- */
+
+
+
+/* -------------------------------------------------- */
+/* FOOTER SECTION STARTED */
+/*--------------------------------------------------- */
+footer{
+	height:350px;
+	width: 100%;
+	box-sizing:border-box;
+	/* background-color:#AA3F62; */
+	background-color:#0C2E4A;
+}
+#footer{
+	height:250px;
+	width: 1100px;
+	margin: auto;
+}
+.footer_block{
+	margin-top:20px;
+	height:100%;
+	width:253px;
+	float:left;
+	padding:10px;
+}
+.footer_block h3{
+	font-family: 'roboto condensed', sans-serif;
+	font-size:17px;
+	font-weight:normal;
+	text-transform:uppercase;
+	letter-spacing: 3px;
+	color:white;
+	margin-bottom:25px;
+}
+#footer_block_1 p{
+	color:#fff6;
+	font-size:15px;
+	font-family:'Abel', sans-serif;
+	font-weight:normal;
+	padding-right:10px;
+}
+#footer_block_2 p{
+	color:#fff6;
+	font-size:15px;
+	/* font-family: 'roboto condensed', sans-serif; */
+	font-family:'Abel', sans-serif;
+}
+#footer_block_2 input{
+	margin-top:10px;
+	width:180px;
+	padding:5px 10px;
+	background-color:#ffa5001a;
+	border:1px solid lightblue;
+}
+#footer_block_2 button{
+	padding:6px;
+	border:none;
+}
+
+#footer_block_3 ul{
+	list-style:none;
+}
+#footer_block_3 ul li{
+	height:30px;
+	line-height:30px;
+	list-style:none;
+	border-bottom: 1px solid gray;
+	width:100px;
+	font-family: 'roboto condensed', sans-serif;
+}
+#footer_block_3 ul li:first-child{
+	border-top: 1px solid gray;
+}
+#footer_block_3 ul li a{
+	text-transform:uppercase;
+	text-decoration:none;
+	display:block;
+	font-size:13px;
+	color:orange;
+}
+#corporate_office{
+	font-size:14px;
+	letter-spacing:0px;
+	padding:4px 0px;
+}
+#footer_block_4 address{
+	color:#fff6;
+	font-size:13px;
+	margin-top:-25px;
+}
+#closing_day{
+	font-size:11px;
+	color:#ff878766;
+}
+
+#copyright{
+	height:50px;
+	width:1100px;
+	clear:both;
+	color:#fff6;
+	text-align:center;
+	border-top:1px solid gray;
+	padding-top:5px;
+}
+#copyright span a{
+	color:orange;
+	text-decoration:none;
+	font-family: 'roboto condensed', sans-serif;
+	text-transform:uppercase;
+	font-size:13px;
+	padding-bottom:15px;
+}
+/* -------------------------------------------------- */
+/* FOOTER SECTION ENDS */
+/*--------------------------------------------------- */
+
+
+
